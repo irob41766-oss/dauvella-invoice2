@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+}
+
+.invoice-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.invoice-form input {
+  flex: 1;
+  padding: 10px;
+}
+
+.invoice-form button {
+  padding: 10px 15px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.invoice-form button:hover {
+  background: #0055aa;
+}
+
+.invoice-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.invoice-list li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.invoice-list button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
